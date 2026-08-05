@@ -1,0 +1,26 @@
+program hello
+	print *, "Hello World"
+
+	print *, "Digite um numero para ver a tabuada: "
+    read(*, *) numero
+
+	print *, "=========================="
+	print *, "TABUADA: "
+	print *, "=========================="
+
+	do i = 1, 10
+    resultado = numero * i
+    print *, numero, " x ", i, " = ", resultado
+    end do
+
+end program hello
+
+! PARADIGMA: Imperativo = Sequência de comandos que altera o estado
+
+! vaga para senior/tech lead requer  Java, C#, F#, C++, Python, TypeScript, and Fortran,  sem faixa salarial, 10 anos de experiencia, Rio de janeiro
+!vaga USA https://www.glassdoor.com.br/Vaga/fort-belvoir-programmer-fortran-vagas-SRCH_IL.0,12_IC1130362_KO13,31.htm
+
+! VAGA: Internacional
+! FAIXA SALARIAL (por ano):
+! Mínimo: 90000
+! Máximo: 150000
